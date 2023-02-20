@@ -1,0 +1,80 @@
+###########   DADOS DE TESTE   ###########
+
+###### UTILIZADORES ######
+
+RepositorioUtilizadores{perfis && informacaoPerfil=
+Identificador{email='joao@isel.pt', distMaxima=100, idadesAceitaveis=[18, 50], generoInteresse='femenino'}, PerfilExibir{nome='João', genero='masculino', distancia=10, idade=18, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de estudar', email='joao@isel.pt'},
+Identificador{email='jose@isel.pt', distMaxima=100, idadesAceitaveis=[18, 50], generoInteresse='femenino'}, PerfilExibir{nome='José', genero='masculino', distancia=20, idade=23, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de ananas', email='jose@isel.pt'},
+Identificador{email='ricardo@isel.pt', distMaxima=100, idadesAceitaveis=[18, 25], generoInteresse='femenino'}, PerfilExibir{nome='Ricardo', genero='masculino', distancia=50, idade=30, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de bananas', email='ricardo@isel.pt'},
+Identificador{email='luis@isel.pt', distMaxima=100, idadesAceitaveis=[18, 50], generoInteresse='femenino'}, PerfilExibir{nome='Luís', genero='masculino', distancia=100, idade=18, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de estudar', email='luis@isel.pt'},
+Identificador{email='sara@isel.pt', distMaxima=50, idadesAceitaveis=[18, 22], generoInteresse='masculino'}, PerfilExibir{nome='Sara', genero='femenino', distancia=10, idade=23, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de ananas', email='sara@isel.pt'},
+Identificador{email='matilde@isel.pt', distMaxima=100, idadesAceitaveis=[18, 50], generoInteresse='masculino'}, PerfilExibir{nome='Matilde', genero='femenino', distancia=20, idade=30, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de bananas', email='matilde@isel.pt'},
+Identificador{email='beatriz@isel.pt', distMaxima=100, idadesAceitaveis=[18, 50], generoInteresse='masculino'}, PerfilExibir{nome='Beatriz', genero='femenino', distancia=50, idade=18, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de estudar', email='beatriz@isel.pt'},
+Identificador{email='mafalda@isel.pt', distMaxima=100, idadesAceitaveis=[18, 25], generoInteresse='femenino'}, PerfilExibir{nome='Mafalda', genero='femenino', distancia=100, idade=23, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de ananas', email='mafalda@isel.pt'},
+Identificador{email='ruben@isel.pt', distMaxima=100, idadesAceitaveis=[18, 50], generoInteresse='femenino'}, PerfilExibir{nome='Ruben', genero='masculino', distancia=10, idade=30, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de estudar', email='ruben@isel.pt'},
+Identificador{email='carolina@isel.pt', distMaxima=20, idadesAceitaveis=[18, 22], generoInteresse='masculino'}, PerfilExibir{nome='Carolina', genero='femenino', distancia=20, idade=18, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de bananas', email='carolina@isel.pt'},
+Identificador{email='catarina@isel.pt', distMaxima=100, idadesAceitaveis=[18, 50], generoInteresse='masculino'}, PerfilExibir{nome='Catarina', genero='femenino', distancia=50, idade=23, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de estudar', email='catarina@isel.pt'},
+Identificador{email='jessica@isel.pt', distMaxima=100, idadesAceitaveis=[18, 50], generoInteresse='masculino'}, PerfilExibir{nome='Jessica', genero='femenino', distancia=100, idade=30, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de ananas', email='jessica@isel.pt'},
+Identificador{email='rita@isel.pt', distMaxima=100, idadesAceitaveis=[18, 25], generoInteresse='femenino'}, PerfilExibir{nome='Rita', genero='femenino', distancia=10, idade=18, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de bananas', email='rita@isel.pt'},
+Identificador{email='pedro@isel.pt', distMaxima=100, idadesAceitaveis=[18, 50], generoInteresse='femenino'}, PerfilExibir{nome='Pedro', genero='masculino', distancia=20, idade=23, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de estudar', email='pedro@isel.pt'},
+Identificador{email='miguel@isel.pt', distMaxima=10, idadesAceitaveis=[18, 22], generoInteresse='femenino'}, PerfilExibir{nome='Miguel', genero='masculino', distancia=50, idade=30, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de ananas', email='miguel@isel.pt'},
+Identificador{email='roberto@isel.pt', distMaxima=100, idadesAceitaveis=[18, 50], generoInteresse='femenino'}, PerfilExibir{nome='Roberto', genero='masculino', distancia=100, idade=18, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de bananas', email='roberto@isel.pt'},
+Identificador{email='ana@isel.pt', distMaxima=100, idadesAceitaveis=[18, 50], generoInteresse='masculino'}, PerfilExibir{nome='Ana', genero='femenino', distancia=10, idade=23, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de estudar', email='ana@isel.pt'},
+Identificador{email='bernardo@isel.pt', distMaxima=100, idadesAceitaveis=[18, 25], generoInteresse='masculino'}, PerfilExibir{nome='Bernardo', genero='masculino', distancia=20, idade=30, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de ananas', email='bernardo@isel.pt'},
+Identificador{email='joana@isel.pt', distMaxima=20, idadesAceitaveis=[18, 50], generoInteresse='femenino'}, PerfilExibir{nome='Joana', genero='femenino', distancia=50, idade=18, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de bananas', email='joana@isel.pt'},
+Identificador{email='carlos@isel.pt', distMaxima=50, idadesAceitaveis=[18, 22], generoInteresse='femenino'}, PerfilExibir{nome='Carlos', genero='masculino', distancia=100, idade=23, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de estudar', email='carlos@isel.pt'},
+Identificador{email='marina@isel.pt', distMaxima=100, idadesAceitaveis=[18, 50], generoInteresse='masculino'}, PerfilExibir{nome='Marina', genero='femenino', distancia=10, idade=30, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de ananas', email='marina@isel.pt'},
+Identificador{email='diogo@isel.pt', distMaxima=100, idadesAceitaveis=[18, 50], generoInteresse='femenino'}, PerfilExibir{nome='Diogo', genero='masculino', distancia=20, idade=18, fotos=[Foto{texto='Foto: 1'}, Foto{texto='Foto: 2'}], descricao='nao gosto de bananas', email='diogo@isel.pt'},
+}
+
+###### SELEÇÕES ######
+
+RepositorioSelecoes{selecoes=
+Selecao{gosto=true, emailUtilizador='sara@isel.pt', emailPerfilApresentado='matilde@isel.pt'},
+Selecao{gosto=true, emailUtilizador='sara@isel.pt', emailPerfilApresentado='beatriz@isel.pt'},
+Selecao{gosto=false, emailUtilizador='matilde@isel.pt', emailPerfilApresentado='sara@isel.pt'},
+Selecao{gosto=false, emailUtilizador='matilde@isel.pt', emailPerfilApresentado='beatriz@isel.pt'},
+Selecao{gosto=true, emailUtilizador='beatriz@isel.pt', emailPerfilApresentado='sara@isel.pt'},
+Selecao{gosto=true, emailUtilizador='beatriz@isel.pt', emailPerfilApresentado='matilde@isel.pt'},
+}
+
+###### ANUNCIOS ######
+
+RepositorioAnuncios{anuncios=
+Anuncio{exemplo='Anuncio exclusivo! Não perca já 5 telemoveis pelo preço de 4!!!'},
+Anuncio{exemplo='Anuncio exclusivo! Novo aspirador, aspira tudo por metade do preço dos outros!!!'},
+Anuncio{exemplo='Anuncio novo!! Computador novo por somente 500 euros, não perca já!!!!'},
+Anuncio{exemplo='Ultimo anuncio!!!'},
+}
+
+###### RECOMENDACOES ######
+
+RepositorioRecomendacoes{recomendacoes=
+Recomendacao{emailUtl1='jessica@isel.pt', emailUtl2='rita@isel.pt', prioridade=70},
+Recomendacao{emailUtl1='rita@isel.pt', emailUtl2='jessica@isel.pt', prioridade=80},
+}
+
+###### QUESTIONARIOS ######
+
+RepositorioQuestionarios{questionarios=
+RespostasQuestionario{emailUtl='ricardo@isel.pt', respostas=[2, 6, 5, 5, 1]},
+RespostasQuestionario{emailUtl='luis@isel.pt', respostas=[6, 6, 2, 5, 4]},
+}
+
+###### CLASSIFICACAO UTILIZADORES ######
+
+RepositorioClassificacaoUtilizdor{classificacoes=
+Classificacao{emailUtl='joao@isel.pt', emailUtlCorr='jose@isel.pt', classificao=60},
+Classificacao{emailUtl='joao@isel.pt', emailUtlCorr='ricardo@isel.pt', classificao=70},
+Classificacao{emailUtl='joao@isel.pt', emailUtlCorr='luis@isel.pt', classificao=80},
+Classificacao{emailUtl='joao@isel.pt', emailUtlCorr='sara@isel.pt', classificao=90},
+Classificacao{emailUtl='jose@isel.pt', emailUtlCorr='joao@isel.pt', classificao=60},
+Classificacao{emailUtl='jose@isel.pt', emailUtlCorr='ricardo@isel.pt', classificao=70},
+Classificacao{emailUtl='jose@isel.pt', emailUtlCorr='luis@isel.pt', classificao=70},
+Classificacao{emailUtl='jose@isel.pt', emailUtlCorr='sara@isel.pt', classificao=70},
+Classificacao{emailUtl='ricardo@isel.pt', emailUtlCorr='joao@isel.pt', classificao=60},
+Classificacao{emailUtl='ricardo@isel.pt', emailUtlCorr='jose@isel.pt', classificao=70},
+Classificacao{emailUtl='ricardo@isel.pt', emailUtlCorr='luis@isel.pt', classificao=70},
+Classificacao{emailUtl='ricardo@isel.pt', emailUtlCorr='sara@isel.pt', classificao=70},
+}
+########### FIM DADOS TESTE  ################

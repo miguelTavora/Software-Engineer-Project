@@ -1,0 +1,23 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+option java_multiple_files = true;
+option java_package = "classificacaoPerfil";
+
+package classificacao;
+
+
+service ClassificacaoPerfil {
+    rpc enviarClassificao(Classificacao) returns (Resultado);
+
+}
+
+message Classificacao {
+    string emailUtl = 1;
+    string emailUtlCorr = 2;
+    int32 classificao = 3;
+}
+
+message Resultado {
+    bool resultado = 1;
+}
+

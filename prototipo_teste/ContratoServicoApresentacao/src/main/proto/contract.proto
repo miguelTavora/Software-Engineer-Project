@@ -1,0 +1,60 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+option java_multiple_files = true;
+option java_package = "servicoApresentacao";
+
+package apresentacao;
+
+
+service Apresentacao {
+    rpc enviarLocalizacaoUtilizador(LocalizacaoUtilizador) returns (Identificador);
+    rpc pedirUtilizadores(Identificador) returns (stream PerfilExibir);
+    rpc enviarSelecao(Selecao) returns (Resultado);
+    rpc pedirAnuncio(Identificador) returns (Anuncio);
+    rpc pedirInformacaoPerfil(EmailUtlCorr) returns (PerfilExibir);
+}
+
+message LocalizacaoUtilizador {
+    string nome = 1;
+    string email = 2;
+    string localizacao = 3;
+}
+
+message Identificador {
+    string email = 1;
+    int32 distMaxima = 2;
+    repeated int32 idadesAceitaveis = 3;
+    string generoInteresse = 4;
+}
+
+message PerfilExibir {
+    string nome = 1;
+    string genero = 2;
+    int32 distancia = 3;
+    int32 idade = 4;
+    repeated Foto fotos = 5;
+    string descricao = 6;
+    string email = 7;
+}
+
+message Foto {
+    string msg = 1;
+}
+
+message Selecao {
+    bool gosto = 1;
+    string emailUtilizador = 2;
+    string emailPerfilApresentado = 3;
+}
+
+message Resultado {
+    bool resultado  = 1;
+}
+
+message Anuncio {
+    string texto = 1;
+}
+
+message EmailUtlCorr {
+    string email = 1;
+}

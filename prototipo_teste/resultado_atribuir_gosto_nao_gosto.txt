@@ -1,0 +1,160 @@
+Enviar lozalização(resultado):
+email: "joao@isel.pt"
+distMaxima: 100
+idadesAceitaveis: 18
+idadesAceitaveis: 50
+generoInteresse: "femenino"
+
+Pedir utilizadores(resultado): [nome: "Sara"
+genero: "femenino"
+distancia: 10
+idade: 23
+fotos {
+  msg: "Foto: 1"
+}
+fotos {
+  msg: "Foto: 2"
+}
+descricao: "nao gosto de ananas"
+email: "sara@isel.pt"
+, nome: "Matilde"
+genero: "femenino"
+distancia: 20
+idade: 30
+fotos {
+  msg: "Foto: 1"
+}
+fotos {
+  msg: "Foto: 2"
+}
+descricao: "nao gosto de bananas"
+email: "matilde@isel.pt"
+, nome: "Beatriz"
+genero: "femenino"
+distancia: 50
+idade: 18
+fotos {
+  msg: "Foto: 1"
+}
+fotos {
+  msg: "Foto: 2"
+}
+descricao: "nao gosto de estudar"
+email: "beatriz@isel.pt"
+, nome: "Mafalda"
+genero: "femenino"
+distancia: 100
+idade: 23
+fotos {
+  msg: "Foto: 1"
+}
+fotos {
+  msg: "Foto: 2"
+}
+descricao: "nao gosto de ananas"
+email: "mafalda@isel.pt"
+, nome: "Carolina"
+genero: "femenino"
+distancia: 20
+idade: 18
+fotos {
+  msg: "Foto: 1"
+}
+fotos {
+  msg: "Foto: 2"
+}
+descricao: "nao gosto de bananas"
+email: "carolina@isel.pt"
+, nome: "Catarina"
+genero: "femenino"
+distancia: 50
+idade: 23
+fotos {
+  msg: "Foto: 1"
+}
+fotos {
+  msg: "Foto: 2"
+}
+descricao: "nao gosto de estudar"
+email: "catarina@isel.pt"
+, nome: "Jessica"
+genero: "femenino"
+distancia: 100
+idade: 30
+fotos {
+  msg: "Foto: 1"
+}
+fotos {
+  msg: "Foto: 2"
+}
+descricao: "nao gosto de ananas"
+email: "jessica@isel.pt"
+, nome: "Rita"
+genero: "femenino"
+distancia: 10
+idade: 18
+fotos {
+  msg: "Foto: 1"
+}
+fotos {
+  msg: "Foto: 2"
+}
+descricao: "nao gosto de bananas"
+email: "rita@isel.pt"
+, nome: "Ana"
+genero: "femenino"
+distancia: 10
+idade: 23
+fotos {
+  msg: "Foto: 1"
+}
+fotos {
+  msg: "Foto: 2"
+}
+descricao: "nao gosto de estudar"
+email: "ana@isel.pt"
+, nome: "Joana"
+genero: "femenino"
+distancia: 50
+idade: 18
+fotos {
+  msg: "Foto: 1"
+}
+fotos {
+  msg: "Foto: 2"
+}
+descricao: "nao gosto de bananas"
+email: "joana@isel.pt"
+]
+
+
+Pedir utilizadores(resultado): [nome: "Marina"
+genero: "femenino"
+distancia: 10
+idade: 30
+fotos {
+  msg: "Foto: 1"
+}
+fotos {
+  msg: "Foto: 2"
+}
+descricao: "nao gosto de ananas"
+email: "marina@isel.pt"
+]
+
+
+Seleção: gosto: true, emailUtilizador: "joao@isel.pt", emailPerfilApresentado: "sara@isel.pt",
+Enviar Seleção(resultado): true
+
+Seleção: gosto: true, emailUtilizador: "joao@isel.pt", emailPerfilApresentado: "matilde@isel.pt",
+Enviar Seleção(resultado): true
+
+Seleção: gosto: true, emailUtilizador: "joao@isel.pt", emailPerfilApresentado: "sara@isel.pt",
+Repetir Enviar Seleção(resultado): false
+
+Pedir anuncio(resultado): Anuncio exclusivo! Não perca já 5 telemoveis pelo preço de 4!!!
+Pedir anuncio(resultado): Anuncio exclusivo! Novo aspirador, aspira tudo por metade do preço dos outros!!!
+Pedir anuncio(resultado): Anuncio novo!! Computador novo por somente 500 euros, não perca já!!!!
+Pedir anuncio(resultado): Ultimo anuncio!!!
+Pedir anuncio(resultado): Anuncio exclusivo! Não perca já 5 telemoveis pelo preço de 4!!!
+Pedir anuncio(resultado): Anuncio exclusivo! Novo aspirador, aspira tudo por metade do preço dos outros!!!

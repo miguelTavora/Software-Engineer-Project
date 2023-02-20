@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ES</string>
+    <string name="editar_perfil">Editar perfil</string>
+    <string name="gostar_perfis">Gostar perfil</string>
+    <string name="correspondencias">Correspondências</string>
+    <string name="questionario">Questionario</string>
+    <string name="definicoes">Definições</string>
+    <string name="gosto">Gosto</string>
+    <string name="naogosto">Não Gosto</string>
+    <string name="retroceder">Retroceder</string>
+    <string name="textoexemplo1">Maria, 23, 60km</string>
+    <string name="textoexemplo2">Um exemplo de texto so para ver como fica com alguns caracteres, por isso ainda tem de ser um texto relativamente grande</string>
+    <string name="bt1">Botão 1</string>
+    <string name="bt2">Botão 2</string>
+    <string name="bt3">Botão 3</string>
+    <string name="submeter">Submeter</string>
+    <string name="classificacao">Classificação</string>
+</resources>

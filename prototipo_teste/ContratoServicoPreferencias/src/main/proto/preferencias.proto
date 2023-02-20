@@ -1,0 +1,22 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+option java_multiple_files = true;
+option java_package = "preferencias";
+
+package pref;
+
+
+service Preferencias {
+    rpc enviarQuestionario(RespostasQuestionario) returns (Resultado);
+
+}
+
+message RespostasQuestionario {
+    string emailUtl = 1;
+    repeated int32 respostas = 2;
+}
+
+message Resultado {
+    bool resultado = 1;
+}
+
